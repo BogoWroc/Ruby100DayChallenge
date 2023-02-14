@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def substrings(word, dictionary)
   input = word.downcase
 

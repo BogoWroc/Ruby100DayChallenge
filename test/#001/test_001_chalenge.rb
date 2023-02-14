@@ -1,19 +1,19 @@
-require_relative "../../lib/#001/001_challenge"
-require "test/unit"
+# frozen_string_literal: true
+
+require_relative '../../lib/#001/001_challenge'
+require 'test/unit'
 
 class Test001Challenge < Test::Unit::TestCase
-
-  DICTIONARY = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
+  DICTIONARY = %w[below down go going horn how howdy it i low own part partner sit].freeze
 
   def test_should_count_word_match_in_the_single_word
-    assert_true(hash_equal?({ "below" => 1, "low" => 1 }, substrings("below", DICTIONARY)))
+    assert_true(hash_equal?({ 'below' => 1, 'low' => 1 }, substrings('below', DICTIONARY)))
   end
 
   def test_should_count_word_match_in_the_sentence
-    assert_true(hash_equal?(
-                  { "down" => 1, "go" => 1, "going" => 1, "how" => 2, "howdy" => 1, "it" => 2, "i" => 3, "own" => 1, "part" => 1, "partner" => 1, "sit" => 1 },
-                  substrings("Howdy partner, sit down! How's it going?", DICTIONARY))
-    )
+    expected = { 'down' => 1, 'go' => 1, 'going' => 1, 'how' => 2, 'howdy' => 1, 'it' => 2, 'i' => 3, 'own' => 1,
+                 'part' => 1, 'partner' => 1, 'sit' => 1 }
+    assert_true(hash_equal?(expected, substrings("Howdy partner, sit down! How's it going?", DICTIONARY)))
   end
 end
 

@@ -25,4 +25,5 @@ bundle install
 https://rubygems.org/
 
 # Dev commands
+- Run ruby linter: `rake rubocop` or `rake rubocop:autocorrect`
 - Run tests: `rake test` or `ruby test/run_test.rb`
