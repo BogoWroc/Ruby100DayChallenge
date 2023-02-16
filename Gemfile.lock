@@ -3,6 +3,8 @@ GEM
   specs:
     ast (2.4.2)
     json (2.6.3)
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
     parallel (1.22.1)
     parser (3.2.1.0)
       ast (~> 2.4.1)
@@ -26,6 +28,7 @@ GEM
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
     ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
     test-unit (3.5.7)
       power_assert
     unicode-display_width (2.4.2)
@@ -34,6 +37,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  mocha (~> 2.0, >= 2.0.2)
   rake (~> 13.0, >= 13.0.6)
   rubocop
   rubocop-rake (~> 0.6.0)
