@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": {
+      "code": 200,
+      "message": "OK"
+    },
+    "body": {
+      "type": "domain",
+      "name": "some-domain.com",
+      "price": "11.00",
+      "status": "Available"
+    }
+  }
+}

@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 # gem "rails"
+gem 'json', '~> 2.6', '>= 2.6.3'
 gem 'mocha', '~> 2.0', '>= 2.0.2'
 gem 'rake', '~> 13.0', '>= 13.0.6'
 gem 'rubocop', require: false

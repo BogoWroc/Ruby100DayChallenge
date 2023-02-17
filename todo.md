@@ -1,3 +1,7 @@
+OpenStruct
+---
+Familiarize with it
+
 Generate documentation
 ---
 https://rubyreferences.github.io/rubyref/developing/documenting.html
