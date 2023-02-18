@@ -72,3 +72,7 @@ end
 Specifying Access Control
 ---
 public, protected, private
+
+Play with exceptions
+---
+https://rollbar.com/guides/ruby/how-to-raise-exceptions-in-ruby/#
