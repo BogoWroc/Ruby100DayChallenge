@@ -28,10 +28,6 @@ Mixins
 ---
 In Ruby, classes are never closed: you can always add methods to an existing class. This applies to the classes you write as well as the standard, built-in classes. All you have to do is open up a class definition for an existing class, and the new contents you specify will be added to whatever's there.
 
-Method missing
----
-Handle missing methods: get_x, get_y, get_z from the objects with variables x, y, z
-
 Subclasses
 ----
 https://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html
